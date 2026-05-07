@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "git-release-publish-assistant-1",
-      "title": "Git・リリース・公開支援 サンプル 1",
+      "title": "Gitリリース公開アシスタント サンプル1",
       "status": "ready",
       "repository": "Sunmax0731/git-release-publish-assistant",
       "branch": "main",

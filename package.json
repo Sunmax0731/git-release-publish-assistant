@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "type": "module",
-  "description": "Git状態、ブランチ、リモート、検証コマンド、公開先を確認し、リリース前の抜け漏れを減らす。",
+  "description": "Git状態、検証コマンド、リモート、公開先を確認し、リリース前の判断を短縮する。",
   "scripts": {
     "test": "node --test tests/*.test.mjs && node tools/qcds-evaluate.mjs",
     "validate": "npm test",
@@ -12,7 +12,9 @@
   "keywords": [
     "windowsapp",
     "git-release",
-    "mvp"
+    "mvp",
+    "qcds",
+    "pre-release"
   ],
   "license": "MIT"
 }
