@@ -191,7 +191,7 @@
           "description": "docs ZIPが生成済みである",
           "kind": "zip",
           "pass": true,
-          "detail": "git-release-publish-assistant-docs.zip 9985 bytes"
+          "detail": "git-release-publish-assistant-docs.zip exists and exceeds minimum size"
         }
       ]
     },
