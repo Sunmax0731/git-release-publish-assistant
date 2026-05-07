@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "id": "git-release-1",
+      "title": "Git・リリース・公開支援 サンプル 1",
+      "repository": "Sunmax0731/git-release-publish-assistant",
+      "branch": "main",
+      "remote": "https://github.com/Sunmax0731/git-release-publish-assistant.git",
+      "validationCommand": "npm test",
+      "releaseTarget": "GitHub Release / BOOTH"
+    },
+    {
+      "id": "git-release-missing-required",
+      "title": "必須項目不足サンプル",
+      "branch": "main",
+      "remote": "https://github.com/Sunmax0731/git-release-publish-assistant.git",
+      "validationCommand": "npm test",
+      "releaseTarget": "GitHub Release / BOOTH"
+    }
+  ]
+}
