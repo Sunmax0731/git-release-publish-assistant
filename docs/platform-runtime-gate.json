@@ -1,0 +1,11 @@
+{
+  "product": "git-release-publish-assistant",
+  "title": "Git・リリース・公開支援",
+  "domain": "WindowsApp",
+  "ideaNo": 7,
+  "platformType": "windows-local-app",
+  "expectedPublicTarget": "GitHub Release / BOOTH",
+  "browser": null,
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}

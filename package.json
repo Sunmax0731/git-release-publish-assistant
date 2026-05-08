@@ -5,9 +5,11 @@
   "type": "module",
   "description": "Git状態、検証コマンド、リモート、公開先を確認し、リリース前の判断を短縮する。",
   "scripts": {
-    "test": "node --test tests/*.test.mjs && node tools/qcds-evaluate.mjs",
+    "test": "node --test tests/*.test.mjs && node tools/qcds-evaluate.mjs && node tools/platform-runtime-gate.mjs && node tools/closed-alpha-guard.mjs",
     "validate": "npm test",
-    "start": "node src/cli.mjs samples/sample-input.json dist/run"
+    "start": "node src/cli.mjs samples/sample-input.json dist/run",
+    "platform:gate": "node tools/platform-runtime-gate.mjs",
+    "closed-alpha:guard": "node tools/closed-alpha-guard.mjs"
   },
   "keywords": [
     "windowsapp",
